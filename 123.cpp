@@ -11,6 +11,7 @@ int main(){
 cout << "Hello world";
 cout <<  "n = ";
 cin << n;
-cout << fib(n);
+for (int i = 0; i < n; i++)
+cout << fib(i + 1);
 return 0;
 }
